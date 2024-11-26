@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 120px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.produto img {
+    max-width: 100%;
+    height: 296px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel img {
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+}
+
